@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "logmere"
+version = "0.3.1"
+description = "A tiny CLI to clean, rotate and archive old log files"
+requires-python = ">=3.9"
+
+[project.scripts]
+logmere = "logwash.cli:main"
